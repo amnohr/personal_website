@@ -11,10 +11,10 @@ function StartPage(){
                 <h4>&lt;Developer&gt;</h4>
                 <div>
                     <a href="https://github.com/amnohr" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/github_icon.png" alt="github icon"/>
+                        <img className={styles.icon} src="/images/icons/github.png" alt="github icon"/>
                     </a>
                     <a href="https://www.linkedin.com/in/alf-magnus-nohr-b34795151/" target="_blank" rel="noreferrer">
-                        <img className={styles.icon} src="/images/linkedin_icon.png" alt="linked in icon"/>
+                        <img className={styles.icon} src="/images/icons/linkedin.png" alt="linked in icon"/>
                     </a>
 
                 </div>
