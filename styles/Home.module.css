@@ -3,8 +3,9 @@
 /*<a href="https://iconscout.com/icon-pack/social-media-16" target="_blank">Social Media Icon Pack</a> on <a href="https://iconscout.com">IconScout</a>*/
 .icon{
     filter: brightness(0) invert(1);
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 6%;
+    max-height: 6%;
+    min-width: 25px;
 }
 
 /* container for each section on page */
@@ -29,9 +30,25 @@
     grid-template-columns: auto auto;
     grid-column-start: 1;
     grid-column-end: 3;
-    text-align: left;
-    color: white;
+    gap:5%;
 
+    padding:10px;
+    text-align: left;
+    color: black;
+    background-color: white;
+
+}
+/* only one column on small screens */
+@media only screen and (max-width: 1000px) {
+    .about {
+        grid-template-columns: auto;
+    }
+}
+
+/* only one column on small screens */
+.about > img{
+    width: 100%;
+    padding: 0;
 }
 
 
