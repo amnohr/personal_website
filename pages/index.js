@@ -8,6 +8,7 @@ function StartPage(){
         <header className={styles.grid_container}>
             <section>
                 <h1>Alf Magnus Nohr</h1>
+                Work in progress
                 <h2>&lt;Developer&gt;</h2>
                 <div>
                     <a href="https://github.com/amnohr" target="_blank" rel="noreferrer">
