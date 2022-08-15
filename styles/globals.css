@@ -47,6 +47,10 @@ h2{
     text-shadow: 1px 1px 1px black, 0 0 1px black, 0 0 5px black;
 }
 
+a{
+    color: white;
+}
+
 img {
     padding:0 0.5rem 0 0.5rem;
 }
