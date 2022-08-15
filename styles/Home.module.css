@@ -5,13 +5,13 @@
     filter: brightness(0) invert(1);
     max-width: 6%;
     max-height: 6%;
-    min-width: 25px;
 }
 
 /* container for each section on page */
 .grid_container{
     display:   grid;
     font-size: 1.7rem;
+    margin: 5vw;
 }
 
 /* for each section inside the container */
@@ -28,10 +28,7 @@
 /* about grid item */
 .about{
     grid-template-columns: auto auto;
-    grid-column-start: 1;
-    grid-column-end: 3;
     gap:5%;
-
     padding:10px;
     text-align: left;
     color: black;
@@ -42,6 +39,14 @@
 @media only screen and (max-width: 1000px) {
     .about {
         grid-template-columns: auto;
+    }
+}
+
+/* only one column on small screens */
+@media only screen and (min-width: 2000px) {
+    .grid_container {
+        margin-left: 15vw;
+        margin-right: 15vw;
     }
 }
 
