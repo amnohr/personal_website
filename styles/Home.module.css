@@ -11,6 +11,7 @@
 
 /* container for each section on page */
 .grid_container{
+    color: white;
     display:   grid;
     font-size: 1.7rem;
     margin-bottom: 2vw;
@@ -38,8 +39,7 @@ CSS for about section
     gap:5%;
     padding:10px;
     text-align: left;
-    color: black;
-    background: rgba(255,255,255,0.8);
+    /* background: rgba(255,255,255,0.8); */
 
 }
 /* only one column on small screens */
@@ -69,7 +69,7 @@ CSS for project showcase section
 
 /* projects grid */
 .projects{
-    background: rgba(255,255,255,0.8);
+    /* background: rgba(255,255,255,0.8); */
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap:5px;
