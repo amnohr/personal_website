@@ -1,11 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-let timer_id = setInterval(
-    () => auto_scroll(),
-    3000
-);
-
+// scroll to about section after 3 seconds
 function auto_scroll(){
     clearInterval(timer_id);
     document.getElementById("about").scrollIntoView({
@@ -14,6 +10,11 @@ function auto_scroll(){
         inline: 'center'
     });
 }
+// timer to call auto_scroll
+let timer_id = setInterval(
+    () => auto_scroll(),
+    3000
+);
 
 // First page visitors see
 function StartPage(){
@@ -21,7 +22,6 @@ function StartPage(){
         <header className={styles.grid_container}>
             <section>
                 <h1>Alf Magnus Nohr</h1>
-                Work in progress
                 <h2>&lt;Developer&gt;</h2>
                 <div>
                     <a href="https://github.com/amnohr" target="_blank" rel="noreferrer">
