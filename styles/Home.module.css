@@ -42,7 +42,7 @@
     }
 }
 
-/* only one column on small screens */
+/* larger margin for wide screens */
 @media only screen and (min-width: 2000px) {
     .grid_container {
         margin-left: 15vw;
