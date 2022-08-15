@@ -45,7 +45,7 @@ function About(){
 // Main index.js
 export default function Home(){
     return(
-        <>
+        <main>
             <Head>
                 <title>Alf Magnus Nohr</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -54,7 +54,7 @@ export default function Home(){
             <StartPage />
             <About />
 
-        </>
+        </main>
 
     )
 }
