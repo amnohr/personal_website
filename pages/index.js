@@ -1,6 +1,19 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+let timer_id = setInterval(
+    () => auto_scroll(),
+    3000
+);
+
+function auto_scroll(){
+    clearInterval(timer_id);
+    document.getElementById("about").scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'center'
+    });
+}
 
 // First page visitors see
 function StartPage(){
