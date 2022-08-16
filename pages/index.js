@@ -19,7 +19,7 @@ let timer_id = setInterval(
 // First page visitors see
 function StartPage(){
     return(
-        <header className={styles.grid_container}>
+        <header>
             <section>
                 <h1>Alf Magnus Nohr</h1>
                 <h2>&lt;Developer&gt;</h2>

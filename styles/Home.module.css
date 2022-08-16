@@ -15,6 +15,16 @@
     display:   grid;
     font-size: 1.7rem;
     margin-bottom: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* larger margin for wide screens */
+@media only screen and (min-width: 2000px) {
+    .grid_container {
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
 }
 
 /* for each section inside the container */
@@ -46,14 +56,6 @@ CSS for about section
 @media only screen and (max-width: 1000px) {
     .about {
         grid-template-columns: auto;
-    }
-}
-/* projects grid */
-/* larger margin for wide screens */
-@media only screen and (min-width: 2000px) {
-    .grid_container {
-        margin-left: 15vw;
-        margin-right: 15vw;
     }
 }
 
