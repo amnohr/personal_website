@@ -17,7 +17,13 @@ if (typeof window !== 'undefined') {
         () => auto_scroll(),
         2000
     );
+
+    // cancel auto_scroll if user scroll first
+    window.onscroll = () => {
+        clearInterval(timer_id);
+    }
 }
+
 
 // First page visitors see
 function StartPage(){
