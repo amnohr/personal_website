@@ -54,9 +54,10 @@ function About(){
             <div>
                 <p>Hi, I'm Alf Magnus!</p>
                 <p>
-                    A Norwegian developer, passionate about code.
-                    I'm currently at my final year of a bachelor's degree in&nbsp;
-                    <a href="https://www.ntnu.no/studier/bprog" target="_blank" rel="noreferrer">Programming</a> at NTNU Gjøvik.
+                    A Norwegian citizen who loves to code, but thrives best in the backend world.
+                    I'm currently in my final year of a bachelor's degree in&nbsp;
+                    <a href="https://www.ntnu.no/studier/bprog" target="_blank" rel="noreferrer">Programming</a> at NTNU Gjøvik,
+                    but I try to find some time for personal projects as well!
                 </p>
             </div>
 
