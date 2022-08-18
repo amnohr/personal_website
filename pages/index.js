@@ -1,29 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import autoscroll from "../utils/autoscroll";
 
-if (typeof window !== 'undefined') {
-// scroll to about section after 3 seconds
-    function auto_scroll() {
-        clearInterval(timer_id);
-        document.getElementById("about").scrollIntoView({
-            behavior: 'smooth',
-            block: 'center',
-            inline: 'center'
-        });
-    }
-
-// timer to call auto_scroll
-    let timer_id = setInterval(
-        () => auto_scroll(),
-        2000
-    );
-
-    // cancel auto_scroll if user scroll first
-    window.onscroll = () => {
-        clearInterval(timer_id);
-    }
-}
-
+// enable autoscroll on this page
+autoscroll("about");
 
 // First page visitors see
 function StartPage(){
