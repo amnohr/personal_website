@@ -14,7 +14,7 @@ export default function Projects(){
                     <img src="/images/website_project.png" alt="link to github repo"/>
                 </a>
                 <p>This website. </p>
-                <p>Even if it's not advanced. It have been set up with React and Next.js for future improvements and learning</p>
+                <p>Even if it's not advanced. It have been set up with React/Next.js for future improvements and learning</p>
 
             </figure>
 
