@@ -20,7 +20,7 @@ export default function Projects(){
 
             <figure>
                 <a href="https://github.com/amnohr" target="_blank" rel="noreferrer">
-                    <img src="/images/profile_picture.jpg" alt="link to github repo"/>
+                    <img src="/images/white_placeholder.jpg" alt="link to github repo"/>
                 </a>
                 <p>Coming soon!</p>
 
@@ -28,7 +28,7 @@ export default function Projects(){
 
             <figure>
                 <a href="https://github.com/amnohr" target="_blank" rel="noreferrer">
-                    <img src="/images/profile_picture.jpg" alt="link to github repo"/>
+                    <img src="/images/white_placeholder.jpg" alt="link to github repo"/>
                 </a>
                 <p>Coming soon!</p>
 
