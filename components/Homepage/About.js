@@ -5,7 +5,7 @@ export default function About(){
     return (
         <section className={`${styles.grid_container} ${styles.about}`} id="about">
             <img src="/images/me.jpg" alt="picture of me"/>
-            <div>git
+            <div>
                 <p>Hi, I'm Alf Magnus!</p>
                 <p>
                     A Norwegian citizen, who loves to code.
