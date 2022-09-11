@@ -4,7 +4,7 @@ import styles from "../../styles/Home.module.css";
 export default function About(){
     return (
         <section className={`${styles.grid_container} ${styles.about}`} id="about">
-            <img src="/images/profile_picture.jpg" alt="tmp profile pic"/>
+            <img src="/images/profile_picture.jpg" alt="picture of me"/>
             <div>
                 <p>Hi, I'm Alf Magnus!</p>
                 <p>
