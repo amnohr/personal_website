@@ -4,8 +4,8 @@ import styles from "../../styles/Home.module.css";
 export default function About(){
     return (
         <section className={`${styles.grid_container} ${styles.about}`} id="about">
-            <img src="/images/profile_picture.jpg" alt="picture of me"/>
-            <div>
+            <img src="/images/me.jpg" alt="picture of me"/>
+            <div>git
                 <p>Hi, I'm Alf Magnus!</p>
                 <p>
                     A Norwegian citizen, who loves to code.
