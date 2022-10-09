@@ -13,6 +13,10 @@ export default function About(){
                     <a href="https://www.ntnu.no/studier/bprog" target="_blank" rel="noreferrer">Programming</a> at NTNU Gjøvik,
                     but I try to find some time for personal projects as well!
                 </p>
+                <p>
+                    Here are some of the technologies I've touched:<br/> C, C++, Java, Kotlin, Go, Python, Haskell,
+                    Javascript, React, MySQL, Android development, ...
+                </p>
             </div>
 
         </section>
